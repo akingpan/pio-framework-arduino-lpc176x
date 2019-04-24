@@ -108,9 +108,9 @@ public:
       PinCfg.OpenDrain = 0;
       PinCfg.Pinmode = 0;
       PinCfg.Pinnum = 0;
-      PinCfg.Portnum = 0;
+      PinCfg.Portnum = 25;
       PINSEL_ConfigPin(&PinCfg);
-      PinCfg.Pinnum = 1;
+      PinCfg.Pinnum = 26;
       PINSEL_ConfigPin(&PinCfg);
     }
 
